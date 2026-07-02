@@ -1,0 +1,22 @@
+body{margin:0;font-family:system-ui,Arial,sans-serif;background:#0f172a;color:#e2e8f0}
+*{box-sizing:border-box}
+a{color:inherit}
+button,input{font:inherit}
+#app{min-height:100vh}
+.shell{max-width:1200px;margin:0 auto;padding:24px}
+.grid{display:grid;gap:16px}
+.two{grid-template-columns:280px 1fr}
+@media(max-width:900px){.two{grid-template-columns:1fr}}
+.card{background:#111827;border:1px solid #243041;border-radius:16px;padding:16px}
+.muted{color:#94a3b8}
+.navbtn{width:100%;margin:8px 0;padding:12px 14px;border:1px solid #334155;border-radius:12px;background:#1e293b;color:#e2e8f0;text-align:left;cursor:pointer}
+.navbtn.active,.btn{background:#2563eb;border-color:#2563eb}
+.btn{padding:10px 14px;border:none;border-radius:10px;color:white;cursor:pointer}
+.btn.ghost{background:transparent;border:1px solid #334155}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.pill{display:inline-block;padding:4px 10px;border-radius:999px;background:#1e293b;color:#cbd5e1;font-size:.85rem}
+.progress{height:10px;background:#1e293b;border-radius:999px;overflow:hidden}
+.bar{height:100%;width:0;background:linear-gradient(90deg,#22c55e,#3b82f6)}
+.choice{width:100%;text-align:left;margin:8px 0;padding:12px;border-radius:12px;border:1px solid #334155;background:#0b1220;color:#e2e8f0;cursor:pointer}
+.choice.correct{border-color:#22c55e}
+.choice.wrong{border-color:#ef4444}
