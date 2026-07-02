@@ -1,0 +1,10 @@
+export function el(tag, attrs = {}, children = []) {
+  const node = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs)) {
+    if (k === 'class') node.className = v;
+    else if (k.startsWith('on')) node.addEventListener(k.slice(2).toLowerCase(), v);
+    else node.setAttribute(k, v);
+  }
+  [].concat(children).forEach(ch => node.append(ch?.nodeType ? ch : document.createTextNode(ch)));
+  return node;
+}
