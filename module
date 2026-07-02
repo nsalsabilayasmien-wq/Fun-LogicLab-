@@ -1,0 +1,53 @@
+export const modules = [
+  {
+    id: 'algoritma',
+    title: 'Algoritma Dasar',
+    desc: 'Langkah berpikir, input-output, flow, dan pseudocode.',
+    lessons: [
+      { title: 'Apa itu algoritma?', body: 'Algoritma adalah urutan langkah logis untuk menyelesaikan masalah.' },
+      { title: 'Pseudocode', body: 'Tulis solusi dalam bahasa sederhana sebelum coding.' }
+    ]
+  },
+  {
+    id: 'array',
+    title: 'Array',
+    desc: 'Indexing, traversal, push/pop, dan array 2D.',
+    lessons: [
+      { title: 'Array 1D', body: 'Kumpulan data sejenis yang diakses lewat indeks.' },
+      { title: 'Traversal', body: 'Gunakan for atau while untuk membaca isi array satu per satu.' }
+    ]
+  },
+  {
+    id: 'loop',
+    title: 'Looping',
+    desc: 'for, while, nested loop, dan pola iterasi.',
+    lessons: [
+      { title: 'For', body: 'Cocok untuk jumlah pengulangan yang sudah jelas.' },
+      { title: 'While', body: 'Cocok ketika pengulangan tergantung kondisi.' }
+    ]
+  },
+  {
+    id: 'fungsi',
+    title: 'User Defined Function',
+    desc: 'Fungsi, parameter, return, dan reuse kode.',
+    lessons: [
+      { title: 'Kenapa fungsi?', body: 'Supaya kode lebih rapi, bisa dipakai ulang, dan mudah diuji.' }
+    ]
+  },
+  {
+    id: 'ifelse',
+    title: 'If Else',
+    desc: 'Percabangan dan validasi logika.',
+    lessons: [
+      { title: 'Kondisi', body: 'If dipakai untuk mengecek kondisi true/false.' }
+    ]
+  },
+  {
+    id: 'project',
+    title: 'Project Akhir',
+    desc: 'Kalkulator dan sistem presensi sederhana.',
+    lessons: [
+      { title: 'Target', body: 'Gabungkan materi menjadi aplikasi mini yang berguna.' }
+    ]
+  }
+];
